@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 echo "Installing packages..."
 sudo pacman -S acpi 
 sudo pacman -S kitty
